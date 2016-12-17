@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^/?(.*)/(.*)$ index.php?controller=$1&method=$2 [QSA,L]
